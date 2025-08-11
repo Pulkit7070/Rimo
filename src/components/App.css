@@ -1,0 +1,16 @@
+html, body,#root, .appcontainer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height:100%;
+    overflow-x: hidden;
+}
+.appcontainer {
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width: 768px) {
+    .appcontainer {
+        padding:0;
+    }
+}
