@@ -94,8 +94,8 @@ const Banner = () => {
                       {title}
                     </h3>
                     <p className='text-3xl font-extrabold bg-gradient-to-r from-purple-200 to-cyan-300 bg-clip-text text-transparent'>
-                      {index === 0 ? "$130B+" :
-                        index === 1 ? "$6B+" :
+                      {index === 0 ? "$2.12T+" :
+                        index === 1 ? "$34.2B+" :
                           "$25B+"}
                     </p>
                   </div>
