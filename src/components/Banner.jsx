@@ -42,7 +42,7 @@ const Banner = () => {
             Simplifying the way you rent and return, with AI ensuring every step is smooth, safe, and stress-free
           </p>
           <a
-            href="#"
+            href="https://odoo-rimo.vercel.app/login"
             className='inline-block mb-10 bg-gradient-to-r from-purple-500 to-indigo-500 border-none px-8 py-3 rounded-full text-white text-lg md:text-xl font-semibold shadow-lg transform transition duration-300 ease-in-out hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500'
             style={{ fontFamily: "'Poppins', sans-serif" }}
           >
@@ -98,7 +98,7 @@ const Banner = () => {
                         index === 1 ? "$34.2B+" :
                           "$25B+"}
                     </p>
-                  </div>
+                  </div>       
 
                   {/* Content Accents */}
                   <div className='absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-cyan-400 opacity-50'></div>
